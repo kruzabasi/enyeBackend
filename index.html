@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <p>
+      As an example, a request to fetch the currency exchange rates from CZK to
+      EUR,GBP,USD might look like:
+    </p>
+    <p style="font-style:italic; color: blue">
+      /api/rates?base=CZK&amp;currency=EUR,GBP,USD
+    </p>
+    <p>
+      A successful response for the above request should return the following
+      schema (of course with a more up-to-date values)
+    </p>
+    <code style="font-style:italic; color: blue">
+      { "results": { <br />
+      &nbsp; &nbsp;"base": "CZK", <br />
+      &nbsp; &nbsp;"date": "2020-11-17", <br />
+      &nbsp; &nbsp;"rates": { <br />
+      &nbsp; &nbsp; &nbsp; &nbsp;"EUR": 0.0377244605, <br />
+      &nbsp; &nbsp; &nbsp; &nbsp;"GBP": 0.033795458, <br />
+      &nbsp; &nbsp; &nbsp; &nbsp;"USD": 0.044824204 <br />
+      &nbsp; &nbsp; &nbsp; &nbsp;} <br />
+      &nbsp; &nbsp; } <br />
+      }
+    </code>
+
+    <script src="" async defer></script>
+  </body>
+</html>

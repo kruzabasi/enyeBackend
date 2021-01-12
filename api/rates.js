@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Axios = require("axios");
 
-router.get("/api/rates", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     //destructure request parameters
     const { base, currency } = req.query;
